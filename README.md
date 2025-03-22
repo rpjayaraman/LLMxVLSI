@@ -5,10 +5,10 @@ This repository showcases a simple yet powerful tool that leverages Large Langua
 ## YouTube Channel: [@wt_bug](https://www.youtube.com/@wt_bug)
 
 ## Overview
-
+![LLMxVLSI](https://raw.githubusercontent.com/rpjayaraman/LLMxVLSI/refs/heads/main/llmXvlsi.png)
 This project demonstrates how LLMs can be integrated into the VLSI design workflow to accelerate development and testing. The workflow involves the following steps:
 
-1.  **Prompt Engineering:** A prompt is used to instruct the LLM to generate Verilog code for a specific digital circuit (DUT) and its corresponding testbench.
+1.  **Prompt:** A prompt is used to instruct the LLM to generate Verilog code for a specific digital circuit (DUT) and its corresponding testbench.
 2.  **Code Generation:** The LLM generates the Verilog code based on the prompt.
 3.  **Post Processing:** Remove any language tags by LLM
 4.  **Simulation:**  Icarus Verilog is used to compile and simulate the generated Verilog code.
@@ -59,4 +59,16 @@ This project demonstrates how LLMs can be integrated into the VLSI design workfl
 *   `llmXvlsi.py`:  The main Python script that drives the automated workflow.
 *   `simulation_results.txt`: Combined results file
 
+## TODO
+ ```
+
+  [ ] Add support for multiple simulator (Verilator, Xilinx Vivado)
+  [ ] Add Feeback loop
+  [ ] Integrate with [RTL2UVM](https://github.com/rpjayaraman/RTL2UVM)
+
+ ```
+
+
+## Future 
+   * The current flow can be upgraded by adding a feeback loop to the simulator like shown below and feel free to experiment with the different simulator and LLM models
 
