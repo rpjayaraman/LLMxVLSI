@@ -71,4 +71,4 @@ This project demonstrates how LLMs can be integrated into the VLSI design workfl
 
 ## Future 
    * The current flow can be upgraded by adding a feeback loop to the simulator like shown below and feel free to experiment with the different simulator and LLM models
-
+    ![FUTURE_VERSION](https://raw.githubusercontent.com/rpjayaraman/LLMxVLSI/refs/heads/main/llmXvlsi_future.png)
